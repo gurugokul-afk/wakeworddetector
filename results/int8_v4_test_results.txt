@@ -1,0 +1,20 @@
+ISRO_GEMINI INT8 TINYML TFLITE V4 TEST RESULTS
+==================================================
+
+INT8 Test Accuracy: 0.9680
+
+Confusion Matrix:
+[[318   6   0]
+ [  4 626   2]
+ [  0  25 175]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      BANKAI     0.9876    0.9815    0.9845       324
+     UNKNOWN     0.9528    0.9905    0.9713       632
+       NOISE     0.9887    0.8750    0.9284       200
+
+    accuracy                         0.9680      1156
+   macro avg     0.9764    0.9490    0.9614      1156
+weighted avg     0.9688    0.9680    0.9676      1156

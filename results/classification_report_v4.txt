@@ -1,0 +1,20 @@
+ISRO_GEMINI DS-CNN V4 TEST RESULTS
+==================================================
+
+Test Accuracy: 0.9680
+
+Confusion Matrix:
+[[318   6   0]
+ [  6 623   3]
+ [  0  22 178]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      BANKAI     0.9815    0.9815    0.9815       324
+     UNKNOWN     0.9570    0.9858    0.9712       632
+       NOISE     0.9834    0.8900    0.9344       200
+
+    accuracy                         0.9680      1156
+   macro avg     0.9740    0.9524    0.9623      1156
+weighted avg     0.9684    0.9680    0.9677      1156

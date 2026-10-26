@@ -1,0 +1,49 @@
+# ESP-IDF & CMake Build Artifacts
+**/build/
+**/managed_components/
+**/sdkconfig.old
+**/sdkconfig.ci
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.d
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Datasets and Preprocessed Features (Can be fetched / regenerated via scripts)
+dataset/
+features/
+split/
+krishnaDataSet/
+raw_downloads/
+*.zip
+*.tar.gz
+*.tar
+*.wav
+*.npy
+
+# Keep explicit test audio files and model binaries
+!bankai_v4_esp32/main/test_audio_samples.h
+!models/
+!models/**
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
